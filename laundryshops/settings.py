@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     'laundryshop.apps.LaundryshopConfig',
     'account_management.apps.AccountManagementConfig',
     'crispy_forms',
+    'rest_framework',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
