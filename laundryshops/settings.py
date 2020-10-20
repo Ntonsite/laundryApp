@@ -33,6 +33,7 @@ ALLOWED_HOSTS = ['*']
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
+    'account_management.apps.AccountManagementConfig',
     'laundryshop.apps.LaundryshopConfig',
     'crispy_forms',
     'django.contrib.contenttypes',
@@ -128,3 +129,8 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
+
+USE_THOUSAND_SEPARATOR = True
+
+AUTH_USER_MODEL = 'account_management.User'
