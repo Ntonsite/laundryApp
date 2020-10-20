@@ -33,8 +33,8 @@ ALLOWED_HOSTS = ['*']
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
-    'account_management.apps.AccountManagementConfig',
     'laundryshop.apps.LaundryshopConfig',
+    'account_management.apps.AccountManagementConfig',
     'crispy_forms',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
